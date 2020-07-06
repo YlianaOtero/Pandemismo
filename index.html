@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> /* Header principal */
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pandemismo</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+</head>
+
+<body class="hidden">
+    <div class="centrado" id="onload">
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+    </div>
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <img src="img/logo.png" alt=""> /*Probar con logo y luego borrar*/
+                </div>
+                <div class="enlaces" id="enlaces">
+                    <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
+                    <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
+                </div>
+                <div class="icono" id="open">
+                    <span>&#9776;</span>
+                </div>
+            </div>
+        </nav>
+        <div class="textos">
+            <h1>Pandemismo</h1> 
+            <h2>El arte y el Covid-19</h2>
+        </div>
+    </header>
+    <main>
+        <section class="team contenedor" id="equipo">
+            <h3> Manifiesto Pandemista</h3> /*Acá se escribe el manifiesto. Imprtante los estilos y formatos.*/
+            <p class="after">Yliana Otero, Gonzalo Rial, Mateo Turqui.</p>
+            <div class="card">
+                <head>
+                <h1>El arte y la pandemia: una mirada al Pandemismo</h1>
+                    <p align = "justify" style = "text-indent: 40px" 
+                    ><font face="Arial" size="3pt" style="line-height: 150%">El pandemismo como Vanguardia surge a mediados del 2020, tras la crisis sanitaria del Covid-19 y el impacto que generó el confinamiento en la vida del ser humano alrededor del mundo. </font></p>
+                <p align = "justify" style = "text-indent: 40px" 
+                ><font face="Arial" size="3pt" style="line-height: 150%">¿Qué es lo que diferencia a esta pandemia de las otras, como por ejemplo, de la Peste Negra? creemos que la tecnología es un importante factor en la crisis que el hombre está atravesando, sirviendo de ayuda para realizar gran parte de sus actividades aún en cuarentena. Asimismo, la tecnología ha servido para el desarrollo de tests y otras herramientas médicas, y para informar de manera masiva a la población. Sin embargo, esta exposición constante a noticias referentes a una enfermedad que parece ser altamente contagiosa, ha infundido un miedo magnánimo en la sociedad.  Lo que nos lleva al siguiente punto: ¿qué siente la gente en estos tiempos? ¿qué hace con esas emociones?</font></p></p>
+                <p align = "justify" style = "text-indent: 40px" 
+                ><font face="Arial" size="3pt" style="line-height: 150%">La prisa protagoniza la vida en el S.XXI. A esa prisa, sumemosle el miedo y la desesperación. Ya no son solamente personas corriendo un ómnibus o un taxi para no llegar tarde a trabajo, o apresurandose por llegar a entregas a tiempo, o para que “no se les pase la vida”. Son personas agobiadas corriendo en un supermercado, obsesionadas con llevarse hasta el último papel higiénico y tarro de alcohol en gel. Son personas consternadas por un roce con un desconocido en la calle, apurándose por limpiarse las manos. Son personas aceleradas por oír las últimas noticias de los avances de una enfermedad alrededor del mundo. Por hacer, hacer, hacer.</font></p>
+                </head>
+            </div>
+        </section>
+        <section class="about" id="predominancia">
+            <div class="contenedor">
+                <h3>¿Qué predomina?</h3> /*Esto hay que cambiarlo!!*/
+                <p class="after"></p>
+                <div class="predominancia">
+                    <div class="predominancia">
+                        <img src="https://i.ibb.co/hcbSFM0/009-stay-at-home-1.pngg" alt="">
+                        <p>Confinamiento y monotonía.</p>
+                    </div>
+                    <div class="predominancia">
+                        <img src="https://i.ibb.co/djfDRYz/018-crying.png" alt="">
+                        <p>Miedo. Preocupación. Ansiedad.</p>
+                    </div>
+                    <div class="predominancia">
+                        <img src="https://i.ibb.co/847MYSp/006-social-media.png" alt="">
+                        <p>Uso y abuso tecnológico.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="work contenedor" id="trabajo">
+            <h3>Arte pandemista</h3>
+            <p class="after"></p>
+            <div class="botones-work">
+                <ul>
+                    <li class="filter active" data-nombre='todos'>Todos</li>
+                    <li class="filter" data-nombre='Arte-visual'>Arte visual</li>
+                    <li class="filter" data-nombre='Literatura'>Literatura</li>
+                    <li class="filter" data-nombre='Música'>Música</li>
+                </ul>
+            </div>
+            <div class="galeria-work">
+                <div class="cont-work Literatura">
+                    <div class="img-work">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8AAADX19fx8fE4ODi4uLi8vLwXFxdPT0/FxcX5+fmHh4fm5ubi4uKMjIz09PRvb29DQ0OYmJh1dXVaWlrOzs7b29uCgoJKSkrk5OQ+Pj5hYWHr6+vLy8ulpaUzMzMqKioeHh4LCwt7e3uwsLChoaElJSVUVFQaGhrhJeGEAAAFGUlEQVR4nO2Y65aqOBCFAQUBIXIXBW946fP+TzhQISHBXt1ti2ecWfv7xaWS1CZJVQXDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/0VmVkvxyhGKboTZK0f4GsdcLJr4lQ6cFouF6bxwgG+wzZb5KxV2A0DhKyGFh/+zwl3sumW0euEI/7bC1/N3FdaBY3vBl2tyFuxsp6g/feM4sq1fF7YVfDL3deDZhfpirNCvA2sXfO3Eb9mlNxrusB4EWEvGWCIdCpMDmZzSnTRZdxa+wd/clvTMy8is3Pc2Aeto259P9CJmssuRwn3W0JN5Ek6tLyzNAeb3TynSHPsP6qeKSRYoLh6KRjw/FYYfSau+qUU3BlPaXz5TeFEMzFQ4MQ27hdq56aoK+2wRfGgmh3xw8XQYnpdGpFh90GRZC5pfrX1yr/CsGZgfgTEdhTmiulPox2ObenBRJbsXQgqbkZ03VpiMeyqnm8UZ34HVPtzkaz6b67HCih5vE2tTXLd0Hfuqwoilg4b5kvVCKZlacoVkjJ1v/XWgK7SFyZJVjfadJ2CtfEkj5JOV6wpzerjkX3XF19N+UDjvyvNa7OUuNvn5Qk6VUOiGXftZonxEOXI95yZ5a+IH3CMzn0oh9Wbrt5GukDYXkyZ0O19JhXzLhH+Gpm1clN73CiPR2qPbY60q5FEmEwsz0Vs8yUV+0c6bS7/hNIV1dyH2RW3zJUueacuJR1tx3KKbq1QY+/qIQ/Pu4igH5fB49Vnm/QUU5Cj/BPtMbhlHVejQ4utMZk51FCapMZp/8vwk3KIIu5QKL8qQpnilS90PFqF88zx+FxQWMyNIKnMgDVWFlMraLXVJlbSSecIzr+9KP4u4ukI1MtJku4pCSpkLa7BY0aZmxhTMum/dsOPgesyskce0Zs7uYHJM+yn5uUJ1TE+sSaHQ0VrKjzDNRpxtTZV4XXShMMhVj1PN5BB5nS/17tcKnU8Vaue083QKfXVxspwC+jWjBSI9VuuRyCFH7KiRLj6skPqbG6NVelJ+Cfkf061SWS+6rB+BPp+teuyJxbnu9z49kJHmRwrvIk1kjCONYlJoHT8JryYieahZUfJdGeNsYW6Hv2KR5tmPFJbDGuTZwlYVUuD9MzjFs8VUpSl1VspbmtNY95gGPEofaVHdgocUmmfROqT7xlIV8vogFSZXuq2mqkz7AoJ75vO7UdXW1+aBooRvkgcUmiXtAp97z9VIhSt+PtnSyXPyqs3nBeU22QQFi+Ue0TzmpejpbAUbm2cN/vwRhWbzsWaRCN0bTaGsvN2qyvrifLrKuz+iKmxnY4/vT088Zz6kUOUyNOfRKx1bHNXk8bTEky6wvvd4pR/8ml7VzxXq7ZnSvI/PkWZgxtP+4wuU7puz6Fv3eKlWbKLAulco83apKwyVpHqz1ebyL8ZtsDCjaf9itOTidBcNeXf0z7voA4BZDhXx3G0REUH/v3ou27u9VLgxLLHSmTwzZG3rWGa9OhEaz5MFGV2k4zjaP677ajG0HWdnPEg/h93lznHszVe2K2/sxEuhxOE+vR8UhW8Gj5/p94bf8K4K8z2PLNene3pXhSK6P5+V3lVhpSWuZ3hrhYfL94bfwkum91OYVBXbTVI4+UHLZvIMDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwGv5B5iXOMnxpywgAAAAAElFTkSuQmCC" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Literatura ej</h4>
+                    </div>
+                </div>
+                <div class="cont-work Literatura">
+                    <div class="img-work">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8AAADX19fx8fE4ODi4uLi8vLwXFxdPT0/FxcX5+fmHh4fm5ubi4uKMjIz09PRvb29DQ0OYmJh1dXVaWlrOzs7b29uCgoJKSkrk5OQ+Pj5hYWHr6+vLy8ulpaUzMzMqKioeHh4LCwt7e3uwsLChoaElJSVUVFQaGhrhJeGEAAAFGUlEQVR4nO2Y65aqOBCFAQUBIXIXBW946fP+TzhQISHBXt1ti2ecWfv7xaWS1CZJVQXDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/0VmVkvxyhGKboTZK0f4GsdcLJr4lQ6cFouF6bxwgG+wzZb5KxV2A0DhKyGFh/+zwl3sumW0euEI/7bC1/N3FdaBY3vBl2tyFuxsp6g/feM4sq1fF7YVfDL3deDZhfpirNCvA2sXfO3Eb9mlNxrusB4EWEvGWCIdCpMDmZzSnTRZdxa+wd/clvTMy8is3Pc2Aeto259P9CJmssuRwn3W0JN5Ek6tLyzNAeb3TynSHPsP6qeKSRYoLh6KRjw/FYYfSau+qUU3BlPaXz5TeFEMzFQ4MQ27hdq56aoK+2wRfGgmh3xw8XQYnpdGpFh90GRZC5pfrX1yr/CsGZgfgTEdhTmiulPox2ObenBRJbsXQgqbkZ03VpiMeyqnm8UZ34HVPtzkaz6b67HCih5vE2tTXLd0Hfuqwoilg4b5kvVCKZlacoVkjJ1v/XWgK7SFyZJVjfadJ2CtfEkj5JOV6wpzerjkX3XF19N+UDjvyvNa7OUuNvn5Qk6VUOiGXftZonxEOXI95yZ5a+IH3CMzn0oh9Wbrt5GukDYXkyZ0O19JhXzLhH+Gpm1clN73CiPR2qPbY60q5FEmEwsz0Vs8yUV+0c6bS7/hNIV1dyH2RW3zJUueacuJR1tx3KKbq1QY+/qIQ/Pu4igH5fB49Vnm/QUU5Cj/BPtMbhlHVejQ4utMZk51FCapMZp/8vwk3KIIu5QKL8qQpnilS90PFqF88zx+FxQWMyNIKnMgDVWFlMraLXVJlbSSecIzr+9KP4u4ukI1MtJku4pCSpkLa7BY0aZmxhTMum/dsOPgesyskce0Zs7uYHJM+yn5uUJ1TE+sSaHQ0VrKjzDNRpxtTZV4XXShMMhVj1PN5BB5nS/17tcKnU8Vaue083QKfXVxspwC+jWjBSI9VuuRyCFH7KiRLj6skPqbG6NVelJ+Cfkf061SWS+6rB+BPp+teuyJxbnu9z49kJHmRwrvIk1kjCONYlJoHT8JryYieahZUfJdGeNsYW6Hv2KR5tmPFJbDGuTZwlYVUuD9MzjFs8VUpSl1VspbmtNY95gGPEofaVHdgocUmmfROqT7xlIV8vogFSZXuq2mqkz7AoJ75vO7UdXW1+aBooRvkgcUmiXtAp97z9VIhSt+PtnSyXPyqs3nBeU22QQFi+Ue0TzmpejpbAUbm2cN/vwRhWbzsWaRCN0bTaGsvN2qyvrifLrKuz+iKmxnY4/vT088Zz6kUOUyNOfRKx1bHNXk8bTEky6wvvd4pR/8ml7VzxXq7ZnSvI/PkWZgxtP+4wuU7puz6Fv3eKlWbKLAulco83apKwyVpHqz1ebyL8ZtsDCjaf9itOTidBcNeXf0z7voA4BZDhXx3G0REUH/v3ou27u9VLgxLLHSmTwzZG3rWGa9OhEaz5MFGV2k4zjaP677ajG0HWdnPEg/h93lznHszVe2K2/sxEuhxOE+vR8UhW8Gj5/p94bf8K4K8z2PLNene3pXhSK6P5+V3lVhpSWuZ3hrhYfL94bfwkum91OYVBXbTVI4+UHLZvIMDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwGv5B5iXOMnxpywgAAAAAElFTkSuQmCC" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Literatura ej</h4>
+                    </div>
+                </div>
+                <div class="cont-work Literatura">
+                    <div class="img-work">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8AAADX19fx8fE4ODi4uLi8vLwXFxdPT0/FxcX5+fmHh4fm5ubi4uKMjIz09PRvb29DQ0OYmJh1dXVaWlrOzs7b29uCgoJKSkrk5OQ+Pj5hYWHr6+vLy8ulpaUzMzMqKioeHh4LCwt7e3uwsLChoaElJSVUVFQaGhrhJeGEAAAFGUlEQVR4nO2Y65aqOBCFAQUBIXIXBW946fP+TzhQISHBXt1ti2ecWfv7xaWS1CZJVQXDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/0VmVkvxyhGKboTZK0f4GsdcLJr4lQ6cFouF6bxwgG+wzZb5KxV2A0DhKyGFh/+zwl3sumW0euEI/7bC1/N3FdaBY3vBl2tyFuxsp6g/feM4sq1fF7YVfDL3deDZhfpirNCvA2sXfO3Eb9mlNxrusB4EWEvGWCIdCpMDmZzSnTRZdxa+wd/clvTMy8is3Pc2Aeto259P9CJmssuRwn3W0JN5Ek6tLyzNAeb3TynSHPsP6qeKSRYoLh6KRjw/FYYfSau+qUU3BlPaXz5TeFEMzFQ4MQ27hdq56aoK+2wRfGgmh3xw8XQYnpdGpFh90GRZC5pfrX1yr/CsGZgfgTEdhTmiulPox2ObenBRJbsXQgqbkZ03VpiMeyqnm8UZ34HVPtzkaz6b67HCih5vE2tTXLd0Hfuqwoilg4b5kvVCKZlacoVkjJ1v/XWgK7SFyZJVjfadJ2CtfEkj5JOV6wpzerjkX3XF19N+UDjvyvNa7OUuNvn5Qk6VUOiGXftZonxEOXI95yZ5a+IH3CMzn0oh9Wbrt5GukDYXkyZ0O19JhXzLhH+Gpm1clN73CiPR2qPbY60q5FEmEwsz0Vs8yUV+0c6bS7/hNIV1dyH2RW3zJUueacuJR1tx3KKbq1QY+/qIQ/Pu4igH5fB49Vnm/QUU5Cj/BPtMbhlHVejQ4utMZk51FCapMZp/8vwk3KIIu5QKL8qQpnilS90PFqF88zx+FxQWMyNIKnMgDVWFlMraLXVJlbSSecIzr+9KP4u4ukI1MtJku4pCSpkLa7BY0aZmxhTMum/dsOPgesyskce0Zs7uYHJM+yn5uUJ1TE+sSaHQ0VrKjzDNRpxtTZV4XXShMMhVj1PN5BB5nS/17tcKnU8Vaue083QKfXVxspwC+jWjBSI9VuuRyCFH7KiRLj6skPqbG6NVelJ+Cfkf061SWS+6rB+BPp+teuyJxbnu9z49kJHmRwrvIk1kjCONYlJoHT8JryYieahZUfJdGeNsYW6Hv2KR5tmPFJbDGuTZwlYVUuD9MzjFs8VUpSl1VspbmtNY95gGPEofaVHdgocUmmfROqT7xlIV8vogFSZXuq2mqkz7AoJ75vO7UdXW1+aBooRvkgcUmiXtAp97z9VIhSt+PtnSyXPyqs3nBeU22QQFi+Ue0TzmpejpbAUbm2cN/vwRhWbzsWaRCN0bTaGsvN2qyvrifLrKuz+iKmxnY4/vT088Zz6kUOUyNOfRKx1bHNXk8bTEky6wvvd4pR/8ml7VzxXq7ZnSvI/PkWZgxtP+4wuU7puz6Fv3eKlWbKLAulco83apKwyVpHqz1ebyL8ZtsDCjaf9itOTidBcNeXf0z7voA4BZDhXx3G0REUH/v3ou27u9VLgxLLHSmTwzZG3rWGa9OhEaz5MFGV2k4zjaP677ajG0HWdnPEg/h93lznHszVe2K2/sxEuhxOE+vR8UhW8Gj5/p94bf8K4K8z2PLNene3pXhSK6P5+V3lVhpSWuZ3hrhYfL94bfwkum91OYVBXbTVI4+UHLZvIMDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwGv5B5iXOMnxpywgAAAAAElFTkSuQmCC" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Literatura ej</h4>
+                    </div>
+                </div>
+                <div class="cont-work Arte-visual">
+                    <div class="img-work">
+                        <img src="https://i.ibb.co/L03cS2t/b3edeec0-de59-4e89-986f-c0961657d5ed.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>"Primera necesidad""</h4>
+                    </div>
+                </div>
+                <div class="cont-work Arte-visual">
+                    <div class="img-work">
+                        <img src="https://i.ibb.co/1dMnYsg/18e0c526-df7f-410d-9e2e-552da04f091a.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>"Primera necesidad 2.0"</h4>
+                    </div>
+                </div>
+                <div class="cont-work Arte-visual">
+                    <div class="img-work">
+                        <img src="https://i.ibb.co/Rpdrf6q/5de5eed6-3d9f-4b30-8c67-f109cbd86557.jpg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>"Al papel"</h4>
+                    </div>
+                </div>
+                <div class="cont-work Música">
+                    <div class="img-work">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8AAADX19fx8fE4ODi4uLi8vLwXFxdPT0/FxcX5+fmHh4fm5ubi4uKMjIz09PRvb29DQ0OYmJh1dXVaWlrOzs7b29uCgoJKSkrk5OQ+Pj5hYWHr6+vLy8ulpaUzMzMqKioeHh4LCwt7e3uwsLChoaElJSVUVFQaGhrhJeGEAAAFGUlEQVR4nO2Y65aqOBCFAQUBIXIXBW946fP+TzhQISHBXt1ti2ecWfv7xaWS1CZJVQXDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/0VmVkvxyhGKboTZK0f4GsdcLJr4lQ6cFouF6bxwgG+wzZb5KxV2A0DhKyGFh/+zwl3sumW0euEI/7bC1/N3FdaBY3vBl2tyFuxsp6g/feM4sq1fF7YVfDL3deDZhfpirNCvA2sXfO3Eb9mlNxrusB4EWEvGWCIdCpMDmZzSnTRZdxa+wd/clvTMy8is3Pc2Aeto259P9CJmssuRwn3W0JN5Ek6tLyzNAeb3TynSHPsP6qeKSRYoLh6KRjw/FYYfSau+qUU3BlPaXz5TeFEMzFQ4MQ27hdq56aoK+2wRfGgmh3xw8XQYnpdGpFh90GRZC5pfrX1yr/CsGZgfgTEdhTmiulPox2ObenBRJbsXQgqbkZ03VpiMeyqnm8UZ34HVPtzkaz6b67HCih5vE2tTXLd0Hfuqwoilg4b5kvVCKZlacoVkjJ1v/XWgK7SFyZJVjfadJ2CtfEkj5JOV6wpzerjkX3XF19N+UDjvyvNa7OUuNvn5Qk6VUOiGXftZonxEOXI95yZ5a+IH3CMzn0oh9Wbrt5GukDYXkyZ0O19JhXzLhH+Gpm1clN73CiPR2qPbY60q5FEmEwsz0Vs8yUV+0c6bS7/hNIV1dyH2RW3zJUueacuJR1tx3KKbq1QY+/qIQ/Pu4igH5fB49Vnm/QUU5Cj/BPtMbhlHVejQ4utMZk51FCapMZp/8vwk3KIIu5QKL8qQpnilS90PFqF88zx+FxQWMyNIKnMgDVWFlMraLXVJlbSSecIzr+9KP4u4ukI1MtJku4pCSpkLa7BY0aZmxhTMum/dsOPgesyskce0Zs7uYHJM+yn5uUJ1TE+sSaHQ0VrKjzDNRpxtTZV4XXShMMhVj1PN5BB5nS/17tcKnU8Vaue083QKfXVxspwC+jWjBSI9VuuRyCFH7KiRLj6skPqbG6NVelJ+Cfkf061SWS+6rB+BPp+teuyJxbnu9z49kJHmRwrvIk1kjCONYlJoHT8JryYieahZUfJdGeNsYW6Hv2KR5tmPFJbDGuTZwlYVUuD9MzjFs8VUpSl1VspbmtNY95gGPEofaVHdgocUmmfROqT7xlIV8vogFSZXuq2mqkz7AoJ75vO7UdXW1+aBooRvkgcUmiXtAp97z9VIhSt+PtnSyXPyqs3nBeU22QQFi+Ue0TzmpejpbAUbm2cN/vwRhWbzsWaRCN0bTaGsvN2qyvrifLrKuz+iKmxnY4/vT088Zz6kUOUyNOfRKx1bHNXk8bTEky6wvvd4pR/8ml7VzxXq7ZnSvI/PkWZgxtP+4wuU7puz6Fv3eKlWbKLAulco83apKwyVpHqz1ebyL8ZtsDCjaf9itOTidBcNeXf0z7voA4BZDhXx3G0REUH/v3ou27u9VLgxLLHSmTwzZG3rWGa9OhEaz5MFGV2k4zjaP677ajG0HWdnPEg/h93lznHszVe2K2/sxEuhxOE+vR8UhW8Gj5/p94bf8K4K8z2PLNene3pXhSK6P5+V3lVhpSWuZ3hrhYfL94bfwkum91OYVBXbTVI4+UHLZvIMDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwGv5B5iXOMnxpywgAAAAAElFTkSuQmCC" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Música ej</h4>
+                    </div>
+                </div>
+                <div class="cont-work Música">
+                    <div class="img-work">
+                        <img src="img/marketing2.jpeg" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Música ej</h4>
+                    </div>
+                </div>
+                <div class="cont-work Música">
+                    <div class="img-work">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8AAADX19fx8fE4ODi4uLi8vLwXFxdPT0/FxcX5+fmHh4fm5ubi4uKMjIz09PRvb29DQ0OYmJh1dXVaWlrOzs7b29uCgoJKSkrk5OQ+Pj5hYWHr6+vLy8ulpaUzMzMqKioeHh4LCwt7e3uwsLChoaElJSVUVFQaGhrhJeGEAAAFGUlEQVR4nO2Y65aqOBCFAQUBIXIXBW946fP+TzhQISHBXt1ti2ecWfv7xaWS1CZJVQXDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/0VmVkvxyhGKboTZK0f4GsdcLJr4lQ6cFouF6bxwgG+wzZb5KxV2A0DhKyGFh/+zwl3sumW0euEI/7bC1/N3FdaBY3vBl2tyFuxsp6g/feM4sq1fF7YVfDL3deDZhfpirNCvA2sXfO3Eb9mlNxrusB4EWEvGWCIdCpMDmZzSnTRZdxa+wd/clvTMy8is3Pc2Aeto259P9CJmssuRwn3W0JN5Ek6tLyzNAeb3TynSHPsP6qeKSRYoLh6KRjw/FYYfSau+qUU3BlPaXz5TeFEMzFQ4MQ27hdq56aoK+2wRfGgmh3xw8XQYnpdGpFh90GRZC5pfrX1yr/CsGZgfgTEdhTmiulPox2ObenBRJbsXQgqbkZ03VpiMeyqnm8UZ34HVPtzkaz6b67HCih5vE2tTXLd0Hfuqwoilg4b5kvVCKZlacoVkjJ1v/XWgK7SFyZJVjfadJ2CtfEkj5JOV6wpzerjkX3XF19N+UDjvyvNa7OUuNvn5Qk6VUOiGXftZonxEOXI95yZ5a+IH3CMzn0oh9Wbrt5GukDYXkyZ0O19JhXzLhH+Gpm1clN73CiPR2qPbY60q5FEmEwsz0Vs8yUV+0c6bS7/hNIV1dyH2RW3zJUueacuJR1tx3KKbq1QY+/qIQ/Pu4igH5fB49Vnm/QUU5Cj/BPtMbhlHVejQ4utMZk51FCapMZp/8vwk3KIIu5QKL8qQpnilS90PFqF88zx+FxQWMyNIKnMgDVWFlMraLXVJlbSSecIzr+9KP4u4ukI1MtJku4pCSpkLa7BY0aZmxhTMum/dsOPgesyskce0Zs7uYHJM+yn5uUJ1TE+sSaHQ0VrKjzDNRpxtTZV4XXShMMhVj1PN5BB5nS/17tcKnU8Vaue083QKfXVxspwC+jWjBSI9VuuRyCFH7KiRLj6skPqbG6NVelJ+Cfkf061SWS+6rB+BPp+teuyJxbnu9z49kJHmRwrvIk1kjCONYlJoHT8JryYieahZUfJdGeNsYW6Hv2KR5tmPFJbDGuTZwlYVUuD9MzjFs8VUpSl1VspbmtNY95gGPEofaVHdgocUmmfROqT7xlIV8vogFSZXuq2mqkz7AoJ75vO7UdXW1+aBooRvkgcUmiXtAp97z9VIhSt+PtnSyXPyqs3nBeU22QQFi+Ue0TzmpejpbAUbm2cN/vwRhWbzsWaRCN0bTaGsvN2qyvrifLrKuz+iKmxnY4/vT088Zz6kUOUyNOfRKx1bHNXk8bTEky6wvvd4pR/8ml7VzxXq7ZnSvI/PkWZgxtP+4wuU7puz6Fv3eKlWbKLAulco83apKwyVpHqz1ebyL8ZtsDCjaf9itOTidBcNeXf0z7voA4BZDhXx3G0REUH/v3ou27u9VLgxLLHSmTwzZG3rWGa9OhEaz5MFGV2k4zjaP677ajG0HWdnPEg/h93lznHszVe2K2/sxEuhxOE+vR8UhW8Gj5/p94bf8K4K8z2PLNene3pXhSK6P5+V3lVhpSWuZ3hrhYfL94bfwkum91OYVBXbTVI4+UHLZvIMDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwGv5B5iXOMnxpywgAAAAAElFTkSuQmCC" alt="">
+                    </div>
+                    <div class="textos-work">
+                        <h4>Música ej</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="footer contenedor">
+            <div class="marca-logo">
+                <img src="" alt="">
+            </div>
+            <p align = "justify" style = "text-indent: 40px" 
+                ><font face="Arial" size="6pt" style="line-height: 150%">
+                "La conciencia del paso del tiempo que, ante la monotonía ininterrumpida, corre el riesgo de perderse, y que está tan estrechamente emparentada y ligada a la conciencia de la vida que, cuando la una se debilita, es inevitable que la otra sufra también un considerable debilitamiento." -T. Mann</font></p>
+        </div>
+
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filtro.js"></script>
+</body>
+</html>
