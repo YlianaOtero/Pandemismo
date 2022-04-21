@@ -1,1 +1,1 @@
-# Pandemismo
+# Página web para un blog.
